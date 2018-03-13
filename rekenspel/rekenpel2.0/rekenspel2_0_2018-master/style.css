@@ -1,0 +1,94 @@
+body{
+    background-image: url('../../images/wp3.jpg');
+    background: url(../../images/wp3.jpg) no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-color: black;
+
+    text-align: center;
+    color: #00CCFF;
+    font: 72px arial, sans-serif;
+
+    animation: colorchange 2s;
+    animation: colorchange 2s infinite alternate;
+    }
+
+    .feedback{
+      font: 52px arial, sans-serif;
+      column-count: 2;
+      color: white;
+    }
+
+      button {
+      background-color: #000000;
+      float: center;
+      padding: 30px;
+      border-radius: 50px;
+
+      animation: colorchange 2s;
+      animation: colorchange 2s infinite alternate;
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        color: blue;
+      }
+      10% {
+        color: #8e44ad;
+      }
+      20% {
+        color: #1abc9c;
+      }
+      30% {
+        color: #d35400;
+      }
+      40% {
+        color: blue;
+      }
+      50% {
+        color: #34495e;
+      }
+      60% {
+        color: blue;
+      }
+      70% {
+        color: #2980b9;
+      }
+      80% {
+        color: #f1c40f;
+      }
+      90% {
+        color: #2980b9;
+      }
+      100% {
+        color: pink;
+      }
+    }
+
+    input {
+        background-color: black;
+        width: 50%;
+        margin: 8px 0;
+        padding: 12px 20px;
+        border-radius: 4px;
+        font: 30px arial, sans-serif;
+
+        animation: colorchange 2s;
+        animation: colorchange 2s infinite alternate;
+    }
+
+    input[type=text], select {
+        display: inline-block;
+        border: 1px solid #00CCFF;
+        color: white;
+        box-sizing: border-box;
+    }
+    input:focus {
+        background-color: black;
+    }
+
+.wrapper{
+  background-color: black;
+}
